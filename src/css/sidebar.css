@@ -1,0 +1,103 @@
+.sidebar{
+    margin-top: 10px;
+}
+
+button{
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+button:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.sidebar_options{
+    margin-top: 10px;
+}
+
+.sidebar_option{
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.sidebar_option:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.sidebar_option span{
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(75,75,75);
+}
+
+.sidebar_option-Active{
+    background-color: #e8f0fe;
+}
+
+.sidebar_option-Active span{
+    color: #1367d2;
+}
+
+.sidebar_option-Active svg{
+    color: #1367d2;
+}
+
+.progressbar{
+    padding: 0px 20px;
+}
+
+.progressbar span{
+    display: block;
+    font-size: 15px;
+    color: #333;
+}
+
+.modal_pop {
+    background-color: #fff;
+    width: 400px;
+    margin: 0px auto;
+    position: relative;
+    transform: translateY(-220%);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.modalHeading{
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+ }
+
+ input.post_submit {
+    width: 100%;
+    background-color: #2381fa;
+    padding: 10px 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    border: none;
+ }
+
+ p.uploading {
+    background: green;
+    color: #fff;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 1px;
+}
